@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper !</title>
+    <!-- bluma link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+    <style>
+        .winner{
+            color: green;
+        }
+        .looser{
+            color: red;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-3by3">
+                        <img
+                          src="C:\Users\Admin\OneDrive\Desktop\html\images\4307567.jpg"
+                          alt="Placeholder image"
+                        />
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-left">
+                          <figure class="image is-48x48">
+                            <img
+                              src="C:\Users\Admin\OneDrive\Desktop\html\images\54424.jpg"
+                              alt="Placeholder image"
+                            />
+                          </figure>
+                        </div>
+                        <div class="media-content">
+                          <!-- <p class="title is-4">John Smith</p>
+                          <p class="subtitle is-6">@johnsmith</p> -->
+                          <h1 class="title is-3">Ping-Pong Score keeper</h1>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+
+                        <!-- my content -->
+                        <h1> <span id="p1Display">0</span> to <span id="p2Display">0</span></h1>
+                        <p class="title is-6">Select the max Score Keeper</p>
+                        <div class="select is-primary is-small">
+                            <select name="" id="upto">
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                            </select>
+                        </div>
+                        <br>
+                        <br>
+
+
+                        <div class="buttons">
+                            <button id="p1Button" class="button is-info is-dark is-outlined is-rounded">+1 Player One</button>
+                            <button id="p2Button" class="button is-info is-dark is-outlined is-rounded">+1 Player Two</button>
+                            <button id="reset" class="button is-danger"> Reset</button>  
+                        </div>                                       
+                        <!-- <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    
+   
+    
+    <script src="app.js"></script>
+</body>
+</html>
